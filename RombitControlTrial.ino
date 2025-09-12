@@ -3,8 +3,8 @@
 
 #include <Servo.h>
 #include <Wire.h>
-const int MPU_addr=0x68;
-int16_t AcX,AcY,AcZ,Tmp,GyX,GyY,GyZ;
+const int MPU_addr=0x68; 
+int16_t AcX,AcY,AcZ,Tmp,GyX,GyY,GyZ; // Int but locked to 16 bits
  
 int minVal=265;
 int maxVal=402;
