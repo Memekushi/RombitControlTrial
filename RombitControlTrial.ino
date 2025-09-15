@@ -98,7 +98,6 @@ void loop(){
   sensorSensing();
 
   int adjustedZ = goinUpUpUp(z, newUp);
-  int newZ = z + adjustedZ;
 
   Serial.print("Servo going to:");
   Serial.println(adjustedZ);
